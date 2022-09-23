@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body{
+    background-color: grey;
+   }
+   .section{
+    width: 100%;
+    height: 80vh;
+    background-image: url("https://images.shiksha.com/mediadata/images/1488259134phpShnPJa.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+   } 
+   body {
+    font-family: cursive;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+   .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;    
+    color: #fff;
+   }
+   .nav-links a {
+    color: #fff;
+   }  
+   .logo img{
+    height: 20%;
+    width: 20%;
+   }  
+   .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10%;
+   } 
+   .heading h1{
+    color: #fff;
+    background-image: linear-gradient(red,rgb(220, 220, 206),green);
+    border-radius: 10px;
+   }
+   .btn1{  
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: rgb(253, 253, 253);
+    margin-left: 40%;
+    background-color: rgb(61, 64, 64);
+   }
+   .btn1:hover{
+    background-color: rgb(7, 105, 97);
+    color: white;
+   }
+   
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    font-size: 15px;
+    transform: matrix3d();
+    transition-delay: 3s;
+    transition: 0.3s ease ease-in-out;
+    text-decoration: none;
+    border-bottom: 4px solid blue;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+   h1{
+    text-align: center;
+   }
+   .map{
+    width: 43%;
+    margin-left: 30%;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+   
+   }
+   .font{
+    display: flex;
+   }
+   .font h4{
+    font-size: 15px;
+   }
+   .contact{
+    display: flex;
+   }
+   .text{
+    margin-right:8%;
+    width: 100%;
+   }
+   .address{
+    margin-left: 20%;
+    
+    width: 100%;
+   }
+   .frm_main{
+    height: 100%;
+    width: 100%;
+   }
+   .sbmt{
+    border: 1px solid black;
+    height: 2%;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    font-size: 20px;
+    
+   }
+   .sbmt:hover{
+    background-color: rgb(146, 128, 105);
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+   }
+   .frm{
+    margin-left: 6%;
+    margin-top: 20px;   
+    width: 86%;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+   }
+   .frm h1{
+    text-align: center;
+   }
+   .cmnt{
+    width: 80%;
+    padding-top: 10px;
+    margin-left: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   textarea{
+    height: 100px;
+   }
+   .cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://www.theasianschool.net/blog/wp-content/uploads/2020/05/Group-Study.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+   }
+   .cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+   }
+   .btn{
+    background-color: #764040; /* Green */
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+   }
+   .btn:hover{
+    background-color: cadetblue;
+   }
+   .abt{
+    margin: 100px auto;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    
+   }
+   .icon{
+    height: 40px;
+    width: 40px;
+   }
+   

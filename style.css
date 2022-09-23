@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body{
+    background-color: grey;
+   }
+   .section{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.shiksha.com/mediadata/images/1488259134phpShnPJa.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+
+   }
+   
+   body {
+    font-family: cursive;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+   .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;    
+    color: #fff;
+   }
+   .nav-links a {
+    color: #fff;
+   }  
+   .logo img{
+    height: 20%;
+    width: 20%;
+   }  
+   .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20%;
+   }
+   .heading h1{
+    color: #fff;
+    background-image: linear-gradient(red,rgb(220, 220, 206),green);
+    border-radius: 10px;
+    
+   }
+   .btn1{  
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: rgb(253, 253, 253);
+    margin-left: 40%;
+    background-color: rgb(61, 64, 64);
+   }
+   .btn1:hover{
+    background-color: rgb(7, 105, 97);
+    color: white;
+   }
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    font-size: 15px;
+    transform: matrix3d();
+    transition-delay: 3s;
+    transition: 0.3s ease ease-in-out;
+    text-decoration: none;
+    border-bottom: 4px solid rgb(255, 255, 255);
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+   .course_containe{
+    width: 1400px;
+    height: 100vh;   
+   }
+   
+   h2{
+    text-align: center;
+    margin-top: 5%;
+    font-style: italic;
+    color: rgb(7, 1, 19);
+   }
+   .course{
+    display: flex;
+    padding: 3%;
+   }
+   .course1{
+    width: 40%;
+    
+    background-color: rgb(241, 232, 221);
+    border-radius: 15px;
+    margin-left: 4%;
+    margin-right: 4%;
+   text-align: center;
+   }
+   .course1:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   h4{
+    text-align: center;
+   }
+   .fact h2{
+    margin-bottom: 20px;
+   }
+   .container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+   }
+   .facalities {
+    
+    display: flex;
+   }
+   .card{
+    width: 25%;
+    height: 80%; 
+    margin-left: 6%;
+    border: 2px solid white;
+   }
+   .card img{
+    width: 100%;
+   }
+   .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   .card h3{
+    text-align: center;
+   }
+   .card p{
+    text-align: center;
+   }
+   /*.course_cont{
+    background-image: url("https://www.theasianschool.net/blog/wp-content/uploads/2020/05/Group-Study.jpg");
+    width: 900px;
+    height: 60vh;
+    margin-left: 30%;
+    background-repeat: no-repeat;
+    background: rgba(black, 0.5);
+    opacity: 0.5;
+    
+   }
+   .contact h2{
+    text-align: center;
+    margin-right: 35%;
+    margin-bottom: -29%;
+    color: black;
+    
+   }
+   .btn{
+    height: 20px;
+    width: 200px;
+    align-items: center;
+   }*/
+
+   .cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://www.theasianschool.net/blog/wp-content/uploads/2020/05/Group-Study.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+   }
+   .cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+   }
+   .btn{
+    background-color: #764040; /* Green */
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+   }
+   .btn:hover{
+    background-color: cadetblue;
+   }
+   .abt{
+    margin: 100px auto;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    
+   }
+   .icon{
+    height: 40px;
+    width: 40px;
+   }
+   
